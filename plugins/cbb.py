@@ -10,7 +10,7 @@ async def cb_handler(client: Bot, query: CallbackQuery):
     data = query.data
     if data == "about":
         await query.message.edit_text(
-            text = f"<b>○ Creator : <a href='tg://user?id={OWNER_ID}'>HCK</a>\n○ Language : <code>Python3</code>\n○ Website : <a href='https://www.hicrustmods.com/'>Checkout latest Mod update </a>\n○ Channel : <a href='https://t.me/+dCMJinN01ysyOGVl'>Join Now</a>\n○ Support Group : @Hicrustmods_discuss</b>",
+            text = f"<b>○ Creator : <a href='tg://user?id={OWNER_ID}'>HCK</a>\n○ Language : <code>Python3</code>\n○ Website : <a href='https://www.hicrustmods.com/'>Checkout latest Mods</a>\n○ Channel : <a href='https://t.me/+dCMJinN01ysyOGVl'>Join Now</a>\n○ Support Group : @Hicrustmods_discuss</b>",
             disable_web_page_preview = True,
             reply_markup = InlineKeyboardMarkup(
                 [
